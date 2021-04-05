@@ -87,6 +87,9 @@
 .menu .nav li a{
   text-decoration: none;
   color: #b8b8b8;
+  border-bottom: 2px solid rgba(0,0,0,0);
+  padding-bottom: 52px;
+  transition: .5s;
 }
 .menu .nav li a:hover{
   border-bottom: 2px solid #18cfab;
@@ -189,7 +192,6 @@
 .brilliant{
   width: 25vw;
   padding: 79px 1px 100px 1px;
-  width: 25vw;
   background-color: #18cfab;
   border-top: 5px solid #ffffff;
 }
@@ -228,7 +230,6 @@
 .device{
   width: 25vw;
   padding: 79px 1px 100px 1px;
-  width: 25vw;
   background-color: #18cfab;
   border-top: 5px solid #ffffff;
 }
@@ -245,8 +246,42 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.horline{
-  width: 50px;
-  size: 10px;
-  color: green;
+
+.service{
+  max-width: 1160px;
+  margin: auto;
+}
+.service-text{
+  font-size: 36px;
+  color: #4e4e4e;
+  text-align: center;
+  margin-top: 90px;
+}
+.line{
+  width: 79px;
+  height: 1px;
+  background-color: #18cfab;
+}
+.lines{
+  position: relative;
+  margin-top: 30px;
+}
+.line.upper-line{
+  position: absolute;
+  top: 0;
+  left: calc(1160px/2 - 12px);
+  transform: translateX(-50%);
+
+}
+.line.lower-line{
+  position: absolute;
+  top: 4px;
+  left: calc(1160px/2 + 2px);
+  transform: translateX(-50%);
+}
+
+
+
+body{
+  padding-bottom: 500px;
 }
