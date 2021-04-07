@@ -1,4 +1,7 @@
-
+.filter-container{
+    max-width: 1160px;
+    margin: 0 auto 90px;
+}
 .filter-menu{
     margin-top: 90px;
     margin-bottom: 70px;
@@ -14,9 +17,14 @@
 }
 .filter-menu li:hover{
     cursor: pointer;
+    outline:2px solid #9dccc2;
+    outline-offset:-2px;
+    color: #9dccc2;
+}
+.checked-menu-element{
+    color: #18cfab!important;
     outline:2px solid #18cfab;
     outline-offset:-2px;
-    color: #18cfab;
 }
 .block-cover{
     width: 1140px;
@@ -30,6 +38,10 @@
 .box{
     width: 285px;
     height: 206px;
+    transition: 0.5s;
+}
+.box:hover{
+    transform: scale(1.4,1.4);
 }
 .work-picture{
     width: 285px;
@@ -38,7 +50,6 @@
 .hide {
     width: 0;
     height: 0;
-    opacity: 1;
     animation-name: a1;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -49,8 +60,5 @@
         opacity: 0;
         min-height: 0;
         min-width: 0;
-        padding: 0;
-        margin: 0;
-        border: 0;
     }
 }
