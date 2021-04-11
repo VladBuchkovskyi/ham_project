@@ -79,6 +79,7 @@ function insertImages(imgs){
     imgsContainer.append(...boxList)
     document.querySelectorAll('.box').forEach((item)=>{
         item.classList.remove('hide');
+        item.firstElementChild.classList.remove('hide')
     })
     document.querySelectorAll('[data-f]').forEach((item)=>{
         item.classList.remove('checked-menu-element')
