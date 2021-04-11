@@ -40,9 +40,9 @@
     height: 206px;
     transition: 0.5s;
 }
-.box:hover{
-    transform: scale(1.4,1.4);
-}
+/*.box:hover{*/
+/*    transform: scale(1.4,1.4);*/
+/*}*/
 .work-picture{
     width: 285px;
     height: 206px;

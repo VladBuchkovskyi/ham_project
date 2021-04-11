@@ -1,0 +1,119 @@
+.client-feedback{
+    margin-top: 120px;
+    background-image: url('../img/background/section-3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.feedback-upper-layer{
+    padding-top: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+.client-feedback .section-heading{
+    color: #fff;
+}
+.feedback-container{
+    padding-bottom: 100px;
+    max-width: 1160px;
+    margin: auto;
+    text-align: center;
+}
+.inverted-commas{
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+.inverted-commas__picture{
+    width: 47px;
+    height: 33px;
+}
+.feedback-text{
+    color: #bbbbbb;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 35px;
+    line-height: 2;
+}
+.client-name{
+    text-transform: uppercase;
+    color: #18cfab;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.client-job{
+    font-size: 13px;
+    font-weight: 300;
+    color: #bbbbbb;
+    margin-bottom: 50px;
+}
+.client-avatar{
+    width: 143px;
+    height: 143px;
+    border-radius: 90px;
+    border: 12px solid rgba(31, 218, 181, 0.2);
+    margin: auto;
+}
+.client-avatar__picture{
+    width: 143px;
+    height: 143px;
+    border-radius: 90px;
+}
+.client-feedback-panel{
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.client-panel-hide{
+    display: none;
+}
+
+.feedback-avatars{
+    width: 485px;
+    margin: 45px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider-arrow{
+    box-sizing: border-box;
+    border: 1px solid #bbbbbb;
+    width: 31px;
+    height: 31px;
+    padding: 8px 10px;
+    transition: 0.2s;
+}
+.slider-arrow:hover{
+    background-color: #18cfab;
+    border: 1px solid #18cfab;
+    cursor: pointer;
+}
+.arrow-right{
+    transform: scale(-1, 1);
+}
+.slider-client-avatar{
+    width: 60px;
+    height: 60px;
+    border: 5px solid rgba(31, 218, 181, 0.2);
+    border-radius: 40px;
+}
+.slider-client-avatar:hover{
+    cursor: pointer;
+    border-color: rgba(31, 218, 181, 0.5);
+}
+.active-avatar{
+    transform: translateY(-20%);
+    transition: 0.25s;
+}
+.slider-client-avatar__picture{
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+
+}
