@@ -420,3 +420,14 @@
   justify-content: space-around;
   align-items: center;
 }
+.footer{
+  background-color:   #22353F;
+  padding: 48px 0;
+  color: #AEAEAE;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+}
+.color-text{
+  color: #18cfab;
+}

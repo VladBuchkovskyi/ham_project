@@ -1,0 +1,27 @@
+.gallery{
+    margin-top: 115px;
+}
+.gallery-container{
+    width: 1160px;
+    margin: auto;
+}
+.grid-item {
+    float: left;
+    width: 378px;
+    margin-bottom: 20px;
+}
+.item--middle{
+    width: 180px;
+}
+.item--mini{
+    width: 124px;
+}
+.pic-normal{
+    width: 378px;
+}
+.pic-middle{
+    width: 180px;
+}
+.pic-mini{
+    width: 124px;
+}
